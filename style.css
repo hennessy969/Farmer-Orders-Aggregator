@@ -1,0 +1,230 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    height: 100dvh;
+    width: auto;
+    margin: 0;
+
+    input{
+            height: 1.2rem;
+            border-radius: 5px;
+            border: 1px none black;
+            width: 25%;
+            color: white;
+            background-color: rgb(20, 20, 20);}
+    
+    label{
+        color: rgb(12, 12, 12);
+        
+    }
+
+    select{
+        color: aliceblue;
+        background-color: rgb(20, 20, 20);
+        border-radius: 7px;
+        width: 100%;
+    }
+    
+    
+    
+
+    .main{
+         border: 2px none red;
+        display: flex;
+        flex-direction: column;
+         width: 100%;
+         height: auto;
+         margin: 0px;
+
+         #buyer{
+            border: 1px solid rgb(65, 64, 64);
+            background-color: rgb(36, 48, 36);
+            color: antiquewhite;
+            max-width: 500px;
+            width: 100%;
+            min-width: fit-content;
+            justify-self: center;
+            border-radius: 10px;
+            
+            input{
+                width: 70%;
+            }
+            button{
+                border-radius: 7px;
+                width:25%;
+                color: black;
+                background-color:  rgb(248, 196, 205);
+
+            }
+
+         }
+         #pick{
+            border: 1px solid rgb(73, 72, 72);
+            width: fit-content;
+            background-color: rgb(36, 48, 36);
+            color: whitesmoke;
+            justify-self: center;
+            max-width: 500px;
+            width: 100%;
+            min-width: fit-content;
+            border-radius: 10px;
+         }
+         
+
+        .header{
+             h1{
+             font-size: clamp(20px,3vw,6vw);
+             text-align: center;
+             top: 0%;
+             border: 1px none blue;
+             }
+             
+
+        
+    
+
+             nav{
+                ul{
+                 display: flex;
+                 flex-direction: row;
+                 justify-content: space-evenly;
+                 
+                 border: 2px none red;
+                    li{
+                    list-style: none;
+                    justify-content: space-evenly;
+                    padding: 0.5rem;
+                    
+                        button{
+                        color: black;
+                        background-color:  rgb(248, 196, 205);
+                        border-radius: 8px;
+                        width: max-content;
+                        
+                }
+                button:hover{
+                    cursor: pointer;
+                }
+                
+            }
+        }
+    }}
+
+
+
+    }
+}
+
+form{ border: 3px none black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: auto;
+    border-radius: 10px;
+    height: auto;
+    align-self: center;
+    button{
+        border-radius: 10px;
+            }
+    
+    button:hover{
+        cursor: pointer;
+
+    }
+    .form{
+        border: 1px solid black;
+        padding: 0.5rem;
+        margin: 1rem;
+        border-radius: 10px;
+        
+        
+        input{
+            height: 1.2rem;
+            border-radius: 5px;
+            border: 1px solid black;
+            width: 100%;
+            color: white;
+            background-color: rgb(20, 20, 20);
+            
+            
+
+        }
+
+        
+    }
+
+    .form2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+
+        border: 1px solid black;
+        padding: 0.5rem;
+        margin: 1rem;
+        width: fit-content;
+        border-radius: 10px;
+        input{
+            height:1.2rem;
+            border-radius: 5px;
+            border: 1px solid black;
+            width: 100%;
+            height: fit-content;
+            color: white;
+            background-color: rgb(20, 20, 20);
+        }
+    }
+
+    .wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .wrap2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .formContainer{
+        border: 1px solid rgb(119, 121, 119);
+        background-color: rgb(36, 48, 36);
+        border-radius: 15px;
+        padding: 3px;
+    }
+    .btn{
+        border: 2px none rgb(47, 68, 47);
+        display:flex;
+        justify-content: center;
+        button{
+            width: 50%;
+            border-radius: 7px;
+            height:2rem;
+            background-color: rgb(248, 196, 205);
+        }
+    }
+    .farmDisplay{
+        border: 1px red solid;
+
+    }
+
+    #avalable{
+        border: 2.5px solid rgb(54, 54, 54);
+        border-radius: 15px;
+        color: whitesmoke;
+    }
+
+    h2{
+        color: white;
+    }
+
+
+
+
+
+}

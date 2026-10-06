@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Farm Trading</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+    <h1>
+        Farm Trading
+    </h1>
+    
+    
+        
+        <nav>
+        <ul>
+            <li> <button data-t="farmer">Farmer</button> </li>
+            <li> <button data-t="buyer">Buyer</button> </li>
+            <li> <button data-t="pick">Pick-List</button> </li>
+        </ul>
+        </nav>
+        
+        </div>
+     <section id="farmer">
+    <form>
+        <div class="formContainer">
+        <div class="form">
+            <label>Name <input type="text" id="farmerName" placeholder="John Doe"></label>
+        </div>
+        <div class="form">
+            <label>Produce <input type="text" id="produce" placeholder="eg. Carrot"></label>
+        </div>
+        <div class="wrap">
+        <div class="form2">
+            <label>Quantity <input type="number" id="quantity"></label>
+        </div>
+        <div class="form2">
+            <label>Unit <select id="unit">
+                <option> kg </option>
+                <option> crate </option>
+                <option> piece </option>
+            </select></label>
+            </div>
+        </div>
+         <div class="wrap2">
+        <div class="form2">
+            <label>Price(GH₵)<input type="number" id="price" ></label>
+        </div>
+       
+        <div class="form2">
+            <label>Location 
+                <select name="Location" id="location"> 
+                    <option value="" disabled selected>Select City</option>
+                    <option value="Accra"> Accra </option>
+                    <option value="Kumasi"> Kumasi </option>
+                    <option value="Cape Coast"> Cape Coast</option>
+                    <option value="Temale"> Tamale </option>
+                </select>
+                </label>
+                </div>
+        </div>
+        <div class="btn">
+        <button type="button" id="add">Add Listing</button>
+         
+        </div>
+        </form>
+
+        <h2> Available Now </h2>
+        <div id="avalable"> 
+            <p id="available"></p>
+                
+        </div>
+
+    
+        </section>
+        <div class="buyer">
+        <section id="buyer" hidden>
+            <label>Name <input type="text" id="buyerName" /> </label>
+            <div id="buyerList"></div>
+        </section>
+        </div>
+        <div class="pick">
+        <section id="pick" hidden>
+            <div id="pickList"></div>
+        </section>
+        </div>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
